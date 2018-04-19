@@ -1,0 +1,165 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  border-bottom: 1px;
+  border-color: seashell;
+  border-style: solid;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-top: -27px;
+}
+
+header .headerp {
+  display: inline-flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+header .headerimg {
+  display: inline-flex;
+  float: left;
+  height: 50px;
+  padding-left: 10px;
+  margin-top: 19px;
+}
+
+header p {
+  text-decoration: underline;
+  padding-left: 20px;
+  margin-top: -25px;
+  padding-right: 20px;
+}
+
+.mainbackground {
+  display: flex;
+  position: static;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  align-items: center;
+  width: 1200px;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+  justify-content: center;
+}
+
+.FeaturedTea {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+}
+
+.teatitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teaitems {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.BerryBlitz img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.SpicedRum img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.SeasonalDonuts img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.MyrtleAve img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.BedfordBizarre img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.locations {
+  display: inline-flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: seashell;
+}
+
+.locationtitle {
+  justify-content: center;
+}
+
+.places {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.downtown {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+.eastbayside {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+}
+
+.oakdale {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+  margin-left: 40px;
+}
+
+.copyright {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 20px;
+}
